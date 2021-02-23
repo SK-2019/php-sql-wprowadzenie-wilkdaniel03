@@ -40,6 +40,7 @@ ol li a{
 ol li:hover{
     background-color: #e56f6f;
     border: 2px solid black;
+    border-radius: 8%;
     cursor: pointer;
 }
 
