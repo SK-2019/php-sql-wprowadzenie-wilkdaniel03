@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="github">
-            <h3><a href="https://github.com/wilkdaniel03/PHP-SQL-Wprowadzenie">Github</a></h3>
+            <h3><a href="https://github.com/SK-2019/php-sql-wprowadzenie-wilkdaniel03">Github</a></h3>
         </div>
             <div class="menu">
                 <nav>
