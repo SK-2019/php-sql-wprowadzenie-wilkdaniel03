@@ -33,8 +33,8 @@
         <h3>Dodaj pracownika</h3>
         <form action="/pracownicy/dodaj.php" method="post">
             <input name="imie" type="text" placeholder="Imię"/><br/>
-            <input name="dzial" type="text" placeholder="Dział"/><br/>
-            <input name="zarobki" type="text" placeholder="Zarobki"/><br/>
+            <input name="dzial" type="number" placeholder="Dział"/><br/>
+            <input name="zarobki" type="number" placeholder="Zarobki"/><br/>
             <input name="data_urodzenia" type="date"/><br/>
             <input type="submit" value="Dodaj"/>
             <input type="reset" value="resetuj"/>
