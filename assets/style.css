@@ -66,7 +66,7 @@ table tr:hover{
     cursor: pointer;
 }
 
-input[sumbit]:hover{
+input[type=sumbit]:hover{
        cursor: pointer;
 }
 
