@@ -63,7 +63,6 @@ table tr:nth-child(2n+1){
 
 table tr:hover{
     background-color: #fd997d;
-    cursor: pointer;
 }
 
 input[type=sumbit]:hover{
