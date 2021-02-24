@@ -61,7 +61,7 @@ table tr:nth-child(2n+1){
     background-color: #ca563a;
 }
 
-table tr:nth-hover{
+table tr:hover{
     background-color: #fd997d;
 }
 
