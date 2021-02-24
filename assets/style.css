@@ -53,8 +53,12 @@ table th{
     background-color: #ed3709;
 }
 
-table tr{
+table tr:nth-child(2n){
     background-color: #eb785b;
+}
+
+table tr:nth-child(2n+1){
+    background-color: #da674a;
 }
 
 .tabela{
