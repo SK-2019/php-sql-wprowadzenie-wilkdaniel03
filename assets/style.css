@@ -61,12 +61,9 @@ table tr:nth-child(2n+1){
     background-color: #ca563a;
 }
 
-table th:hover{
-    background-color: #fd997d;
-}
-
 table tr:hover{
     background-color: #fd997d;
+    cursor: pointer;
 }
 
 .tabela{
