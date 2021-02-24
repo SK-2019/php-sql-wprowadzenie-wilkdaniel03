@@ -41,19 +41,33 @@
         </form>
         <br/><br/>
         <h3>Usuń pracownika</h3><br/>
-        <form action="pracownicy/usun.php" method="post">
         <?php
-            require_once("assets/connect.php");
-            $result = $conn->query("SELECT * FROM pracownicy");
-
-            echo("<select name='imie'>");
-                while($row = $result->fetch_assoc()){
-                    echo("<option value=".$row['id_pracownicy'].">".$row['imie']."</option>");
+            require_once("/assets/connect.php");
+                
+            $result = $conn->query("SELECT * FROM pracownicy, organizacja WHERE dzial = id_org");
+            echo("<table border=1>");
+                echo("<th>ID</th>");
+                echo("<th>Imię</th>);
+                echo("<th>Dzial</th>");
+                echo("<th>Zarobki</th>");
+                echo("<th>Data urodzenia</th>");
+                echo("<th>Nazwa działu</th>");
+                echo("<th>Usuń</th>");
+                while($row->fetch_assoc()){
+                    echo("<tr>");
+                        echo("<form action='usun.php'>
+                        <td>".$row['id_pracownicy']."</td><td>".$row['imie']."</td><td>".$row['dzial']."</td><td>".$row['zarobki']."</td><td>".$row['data_urodzenia']."</td><td>".$row['nazwa_dzial']."</td><td>"."Usuń
+                        
+                        
+                     
+                     
+                     
+                        </form>
+                        ");
+                    echo("</tr>");
                 }
-            echo("</select><br/>");
-            echo("<input type='submit' value='Usuń'/>");
+            echo("</table>");
         ?>
-        </form>
     </header>
 </body>
 </html>
