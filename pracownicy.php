@@ -4,25 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP - Daniel Wilk</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous"/>
 </head>
 <body>
     <header>
-        <div class="github">
-            <h3><a href="https://github.com/SK-2019/php-sql-wprowadzenie-wilkdaniel03">Github</a></h3>
-        </div>
-        <div class="menu">
-            <nav>
-                <b><ol>
-                    <li><a class="link" href="index.php">Strona Główna</a></li>
-                    <li><a class="link" href="pracownicy.php">Pracownicy</a></li>
-                    <li><a class="link" href="pracownicyorganizacja.php">Pracownicy i Organizacja</a></li>
-                    <li><a class="link" href="funkcjeagregujace.php">Funkcje Agregujące</a></li>
-                    <li><a class="link" href="dataczas.php">Data i Czas</a></li>
-                    <li><a class="link" href="biblioteka.php">Biblioteka</a></li>
-                    <li><a class="link" href="dane.php">Dane</a></li>
-                </ol></b>
-            </nav>
+        <input type="checkbox" id="check"/>
+        <label for="check">
+            <i class="fas fa-bars" id="button"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+        <div class="sidebar">
+            <header id="sidebar-name">SideBar</header>
+            <ul>
+                <li><a href="index.php"><i class="fas fa-home"></i>Strona Główna</a></li>
+                <li><a href="pracownicy.php"><i class="fas fa-briefcase"></i>Pracownicy</a></li>
+                <li><a href="pracownicyorganizacja.php"><i class="fas fa-building"></i>Pracownicy i Organizacja</a></li>
+                <li><a href="funkcjeagregujace.php"><i class="fas fa-calculator"></i>Funkcje Agregujące</a></li>
+                <li><a href="dataczas.php"><i class="fas fa-calendar-week"></i>Data i Czas</a></li>
+                <li><a href="biblioteka.php"><i class="fas fa-book"></i>Biblioteka</a></li>
+                <li><a href="dane.php"><i class="fas fa-database"></i>Dane</a></li>
+                <li><a href="https://github.com/SK-2019/php-sql-wprowadzenie-wilkdaniel03"><i class="fab fa-github"></i>Mój Github</a></li>
+            </ul>
         </div>
         <div class="name">
                 <h2>Daniel Wilk gr 2 nr 29<h2>
